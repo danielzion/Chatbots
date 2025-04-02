@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Power Learn Project Bot</title>
+
+    <link rel="stylesheet" href="tictactoe.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <style>
+  df-messenger {
+   --df-messenger-bot-message: #03a7a9;
+   --df-messenger-button-titlebar-color: #8b103c;
+   --df-messenger-chat-background-color: #eeeeee;
+   --df-messenger-font-color: white;
+   --df-messenger-send-icon: #03a7a9;
+   --df-messenger-user-message: #8b103c;
+  };
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+</style>
+
+</head>
+
+<body>
+<main class="flex-shrink-0">
+  <div class="container">
+    <h1 class="mt-5"></h1>
+    <p class="lead"></p>
+    <p>  </p>
+  </div>
+</main>
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted"></span>
+  </div>
+</footer>
+
+
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Jina"
+  agent-id="7c73112a-a7e5-41f1-a63b-8cc4fbd28df8"
+  language-code="en"
+></df-messenger>
+
+
+
+</body>
+
+</html>
+
